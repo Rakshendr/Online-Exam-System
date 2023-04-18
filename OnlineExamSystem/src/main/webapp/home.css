@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+.header
+{
+	background:aqua;
+	color:black;
+	padding: 10px 10px;
+	margin:12px;
+	text-align: center;
+	font-family:Cursive;
+}
+
+.navbar
+{
+	background:black;
+	color:white;
+	padding: 10px 10px;
+	margin:8px;
+	overflow:hidden;
+	float:center;
+}
+.navbar a
+{
+	color:white;
+}
+
+.navbar a:hover
+{
+	border-radius:16px;
+	font:16px;
+	background:white;
+	color:black;
+}
+table,th,td
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+input[type="text"],input[type="number"],input[type="password"],input[type="email"],select
+{
+	text-align:center;
+	background:lightcyan;
+	color:black;
+	padding:10px 10px;
+	margin:8px;
+	border-radius:12px;
+}
+select:hover,option:hover
+{
+	background:black;
+	color:white;
+}
+input[type="submit"]
+{
+	background:blue;
+	color:white;
+	border:none;
+	border-radius:16px;
+	padding: 10px 10px;
+}
+
+input[type="submit"]:hover
+{
+	background:red;
+	color:yellow;
+	transition-duration:0.5s;
+	cursor:pointer;
+}
+
+.footer
+{
+	background:black;
+	color:white;
+}
